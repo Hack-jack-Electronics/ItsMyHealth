@@ -1,0 +1,7 @@
+pytesseract
+gradio
+opencv-python
+pandas
+numpy
+tempfile
+google.generativeai

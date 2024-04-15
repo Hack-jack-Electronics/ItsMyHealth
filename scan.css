@@ -1,0 +1,121 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    background-image: url('medback.jpeg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-repeat: repeat; /* Repeats the background image if it vanishes */
+}
+
+.gradio-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px; /* Add padding to avoid content overlapping with the header */
+    padding-bottom: 50px;
+}
+
+.content {
+    text-align: center;
+    color: #fff; /* Text color for heading */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.gradio-embed {
+    max-width: 800px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+.outer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.gradio-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.back-button, .home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover, .home-button:hover {
+    background-color: #0056b3;
+}
+
+/* Adjust icon size */
+.back-button i, .home-button i {
+    margin-right: 5px;
+}
+
+.outer{
+    margin:10%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+
