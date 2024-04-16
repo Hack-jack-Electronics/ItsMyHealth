@@ -47,7 +47,7 @@ To run ItsMyHealth web application, ensure you have the following dependencies i
 
 > bash
 
-> ```git clone [https://github.com/your_username/ItsMyHealth-webapp.git](https://github.com/hitesh-mehta/ItsMyHealth)```
+> ```git clone [https://github.com/Hack-jack-Electronics/ItsMyHealth](https://github.com/Hack-jack-Electronics/ItsMyHealth)```
 
 2. Set up a virtual environment named 'demo':
 
