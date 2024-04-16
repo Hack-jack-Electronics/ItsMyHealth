@@ -5,3 +5,4 @@ pandas
 numpy
 tempfile
 google.generativeai
+streamlit
