@@ -93,13 +93,19 @@ Similarly, run the grad_Diet.py script to deploy the dietary plan generation mod
 
 Obtain the public shareable Gradio link for the dietary plan generator (link2).
 
+Also, run the Chat_bot.py script over the local terminal and get the public sharable link (link3).
+
+>bash
+
+>```streamlit run Chat_bot.py```
+
 Download all other HTML, CSS, and JS files from the repository.
 
 Open scan.html and insert link1 within the iframe tag to deploy Gradio on the webpage.
 
 Similarly, in insulin.html, insert link2 within the iframe tag.
 
-Similarly, run the Chat_bot.py script over the local terminal and get the public sharable link (link3). Incorporate the link3 into the "Any other Health Query" button over the index.html file.
+Also, incorporate the link3 into the "Any other Health Query" button over the index.html file.
 
 Launch the index.html file over any local server (e.g., using Python's SimpleHTTPServer or any web server of your choice):
 
@@ -107,7 +113,7 @@ Launch the index.html file over any local server (e.g., using Python's SimpleHTT
 
 > ```python -m http.server 5500```
 
-Access the ItsMyHealth website through your web browser at http://localhost:5500.
+Access the ItsMyHealth website temporarily through your web browser at [here](https://hack-jack-electronics.github.io/ItsMyHealth/).
 
 # **License**
 ItsMyHealth is licensed under the Apache License 2.0, a permissive license that requires preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
