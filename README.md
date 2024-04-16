@@ -8,6 +8,8 @@
 
 **Specialized Insulin Level-based Dietary Plan Generator**: ItsMyHealth offers personalized dietary plans based on users' insulin levels, promoting balanced nutrition and healthy eating habits.
 
+**ChatBot for other Queries**: Welcome to ItsMyHealth ChatBot, your virtual medical assistant. Ask anything from symptoms to treatment options, and I'll provide trustworthy guidance tailored to your needs.
+
 # Future Aspects
 
 **Nearby Legitimate Retail Stores**: ItsMyHealth will provide users with information about nearby legitimate retail stores where they can purchase genuine medications and healthcare products.
@@ -34,6 +36,8 @@ To run ItsMyHealth web application, ensure you have the following dependencies i
 >Tempfile
 
 >Os
+
+>Streamlit
 
 >Google.generativeai
 
@@ -94,6 +98,8 @@ Download all other HTML, CSS, and JS files from the repository.
 Open scan.html and insert link1 within the iframe tag to deploy Gradio on the webpage.
 
 Similarly, in insulin.html, insert link2 within the iframe tag.
+
+Similarly, run the Chat_bot.py script over the local terminal and get the public sharable link (link3). Incorporate the link3 into the "Any other Health Query" button over the index.html file.
 
 Launch the index.html file over any local server (e.g., using Python's SimpleHTTPServer or any web server of your choice):
 
