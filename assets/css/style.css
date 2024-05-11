@@ -14,7 +14,7 @@
   font-family: "Open Sans", sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: normal; 
+  white-space: pre-wrap; 
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .05em; /* Adjust as needed */
   animation: 
@@ -31,7 +31,7 @@
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange }
+  50% { border-color:  #74bdcb}
 }
 
 body {
