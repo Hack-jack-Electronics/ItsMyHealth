@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 .typewriter h1 {
   color: #444444;
-  font-family: "Open Sans", sans-serif;
+  font-family: Comfortaa, sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: pre-wrap; 
@@ -31,6 +31,12 @@
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+}
+
+.static {
+  font-color:#14c1b3;
+  font-family: Comfortaa, sans-serif;
+  letter-spacing: .05em;
 }
 
 body {
