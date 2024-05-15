@@ -5,11 +5,37 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-function openChatbot() {
-    // Implement your open chatbot function here
-    var chatbotContainer = document.getElementById("chatbotContainer");
-    chatbotContainer.style.display = "block";
+document.addEventListener("DOMContentLoaded", function() {
+    // Show the pop-up message and overlay when the page is loaded
+    var popupMessage = document.getElementById("popupMessage");
+    var overlay = document.createElement("div");
+    overlay.classList.add("overlay");
+    document.body.appendChild(overlay);
+    
+    popupMessage.style.display = "block";
+    overlay.style.display = "block";
+});
+
+function closePopup() {
+    // Hide the pop-up message and overlay when "Got it!" button is clicked
+    var popupMessage = document.getElementById("popupMessage");
+    var overlay = document.querySelector(".overlay");
+    
+    popupMessage.style.display = "none";
+    overlay.style.display = "none";
 }
+
+function toggleChatbot() {
+    // Toggle the visibility of the chatbot container
+    var chatbotContainer = document.getElementById("chatbotContainer");
+    
+    if (chatbotContainer.style.display === "block") {
+        chatbotContainer.style.display = "none";
+    } else {
+        chatbotContainer.style.display = "block";
+    }
+}
+
 
 (function() {
   "use strict";
