@@ -34,11 +34,6 @@
   50% { border-color: #74bdcb; }
 }
 
-.static {
-  font-color:#14c1b3;
-  font-family: Comfortaa, sans-serif;
-  letter-spacing: .05em;
-}
 .chatbot-button {
   position: fixed;
   bottom: 70px;
