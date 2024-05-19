@@ -14,7 +14,7 @@ def get_gemini_response(question):
     return response.text
 
 st.set_page_config(page_title="Any medical doubts ask here")
-st.header("Medcheck")
+st.header("ItsMyHealth")
 input=st.text_input("Input: ",key="input")
 submit=st.button("Search")
 
