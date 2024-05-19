@@ -10,6 +10,13 @@
 # General
 --------------------------------------------------------------*/
 
+body {
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
 .typewriter h1 {
   color: #444444;
   font-family: Comfortaa, sans-serif;
